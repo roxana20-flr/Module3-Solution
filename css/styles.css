@@ -1,0 +1,159 @@
+/**ROXANA**/
+body {
+  font-size: 16px;
+  color: #816ADB;
+  background-color: #FFE4FD;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #DAD1FF;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  color: #816ADB;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list p {
+  color: #816ADB;
+  text-align: center;
+  margin: 0px 0px 2px 0px;
+  padding: 5px;
+}
+#nav-list p:hover {
+  background: #DAD1FF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #816ADB;
+}
+button.navbar-toggle.collapsed:hover, #nav-list p{
+  background-color: #FFE4FD;
+}
+/*.navbar-header button.navbar-toggle{
+  background-color: #FFE4FD;
+}*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+  margin-right: 40px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#menu-categories-title { 
+  margin-bottom: 50px;
+}
+.food-description{
+  background-color: #DAD1FF;
+  color: #816ADB;
+  padding: 2px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
+}
+.title-food-description{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #DAD1FF;
+  color: #816ADB;
+  padding: 10px 10px 2px 10px;
+  margin: 10px 10px 0px 10px;
+}
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { 
+      padding-top: 10px;
+    font-size: 2.5vw; 
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 3vw; 
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { 
+      padding-top: 10px;
+    font-size: 4vw; 
+  }
+  /* End Header*/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding: 10px 30px 10px 50px;
+    height: 70px;
+  }
+  .navbar-brand h1 { 
+      padding-top: 10px;
+    font-size: 5vw; 
+  }
+  #collapsable-nav p { 
+    font-size: 1.2em;
+  }
+  /* End Header */
+
+
+  /* Home Page */
+  .food-description{
+  padding: 2px 30px 10px 30px;
+  margin: 0px 40px 30px 40px;
+  }
+  .title-food-description{
+  margin: 0px 40px 0px 40px;
+  }
+  .container {
+    margin-top: 30px;
+    padding: 0;
+  }
+  /* End Home Page */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+}
+
+
+
